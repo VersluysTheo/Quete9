@@ -1,0 +1,38 @@
+/* Pokemon image d'accueil */
+.Germignon{
+    background-image: url('../image/Germignon.jpg');
+    background-position: 14% 35%;
+    height : 800px
+}
+.Macronium{
+    background-image: url('../image/Macronium.jpg');
+    background-position: 22% 20%;
+}
+.Meganium{
+    background-image: url('../image/Meganium.jpg');
+    background-position: 55% 20% ;
+}
+.Hericendre{
+    background-image: url('../image/Hericendre.jpg');
+    background-position: 20% 50%;
+}
+.Feurisson{
+    background-image: url('../image/Feurisson.png');
+    background-position: 40% 25%;
+}
+.Typhlosion{
+    background-image: url('../image/Typhlosion.jpg');
+    background-position: 27% 10%;
+}
+.Kaiminus{
+    background-image: url('../image/Kaiminus.jpg');
+    background-position: 50% -5%;
+}
+.Crocrodil{
+    background-image: url('../image/Crocrodil.jpg');
+    background-position: 19% 40% ;
+}
+.Aligatueur{
+    background-image: url('../image/Aligatueur.jpg');
+    background-position: 48% 50%;
+}
