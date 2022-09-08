@@ -382,21 +382,21 @@ if (isset($_POST['updatechampion'])){
   foreach ($Recherchepk as $valeur4){ ?>
   <a href="index.php?id=<?php echo $valeur4['id']; ?>">
     <div class="card mx-2 bg-secondary" style="width: 18rem;">
-    <img src="<?php echo $valeur4['image']; ?>" class="card-img-top" height="400px" width="450px" alt="...">
-    <div class="card-body">
-    <p class="card-text text-white"> Numero : <?php echo $valeur4['numero'] ?></p>
-    <p class="card-text text-white"> Nom : <?php echo $valeur4['first_name'] ?></p>
+      <img src="<?php echo $valeur4['image']; ?>" class="card-img-top" height="400px" width="450px" alt="...">
+      <div class="card-body">
+      <p class="card-text text-white"> Numero : <?php echo $valeur4['numero'] ?></p>
+      <p class="card-text text-white"> Nom : <?php echo $valeur4['first_name'] ?></p>
     </div>
     </div>
     <br>
-    </a>
+  </a>
   
   
 <?php } } ?>
   </div>
 </div>
 
-<!-- Barre de Recherche Pokemon-->
+<!-- Barre de Recherche Champion-->
 <div class="container">
   <div class="row justify-content-center">
   <?php if (isset($_GET['searchpok'])){
